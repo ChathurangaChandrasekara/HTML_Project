@@ -1,0 +1,663 @@
+body
+{
+	background-color:#3c4e84;
+}
+
+.page
+{
+	width:1300px;
+	height:1200px;
+}
+
+
+
+.header
+{
+	width:1300px;
+	height:100px;
+	text-shadow:  5px 2px 4px gray;
+}
+
+.header h1
+{
+	color:white;
+	float:left;
+}
+
+.header h3
+{
+	color:rgb(133,153,147);
+	float:left;
+	position:absolute;
+	top:50px;
+}
+
+.header .sublinks
+{
+	width:400px;
+	height:90px;
+	float:right;
+	margin-top:10px;
+}
+
+.header .sublinks a
+{
+	color:#d1d7e2;
+	text-decoration:none;
+	position:relative;
+	top:25px;
+	float:left;
+	left:15px; 
+}
+
+.header .sublinks a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+.header .sublinks h4
+{
+	color:white;
+	float:left;
+	position:relative;
+	top:8px;
+	left:15px;
+}
+
+.header .sublinks  input
+{
+	position:relative;
+	top:30px;
+	left:-5px;
+	border-radius:10px;
+}
+
+
+
+
+.linkspart
+{
+	width:1300px;
+	height:40px;
+	background-color:#d1d7e2;
+	border-radius:10px;
+	margin-top:10px;
+}
+
+.linkspart a
+{
+	color:#3c4e84;
+	text-decoration:none;
+	font-size:120%;
+	position:relative;
+	top:10px;
+	display: inline;
+}
+
+.linkspart a:hover
+{
+	color:white;
+	background-color:#3c4e84;
+	border-radius:10px;
+}
+
+
+
+
+.bodypart
+{
+	width:1300px;
+	height:700px;
+	background-color:#d1d7e2;
+	margin-top:10px;
+	border-radius:10px;
+	position:relative;
+}
+
+.bodypart .leftpart
+{
+	width:290px;
+	height:675px;
+	background-color:#3c4e84;
+	border-radius:10px;
+	position:absolute;
+	left:10px;
+	top:13px;
+}
+
+.bodypart .leftpart h2
+{
+	color:white;
+}
+
+.bodypart .leftpart .center
+{
+	width:280px;
+	height:603px;
+	background-color:#d1d7e2;
+	border-radius:10px;
+}
+
+.bodypart .leftpart .center .linkbox
+{
+	width:279px;
+	height:100px;
+	border-bottom-style:dotted;
+}
+
+.bodypart .leftpart .center .linkbox img
+{
+	float:left;
+	position:relative;
+	top:20px;
+	left:5px;
+}
+
+.bodypart .leftpart .center .linkbox a
+{
+	color:#3c4e84;
+	text-decoration:none;
+	font-size:120%;
+	position:relative;
+	top:20px;
+}
+
+.bodypart .leftpart .center .linkbox a:hover
+{
+	color:white;
+	background-color:#3c4e84;
+	border-radius:10px;
+}
+
+.imagesbox
+{
+	width:1200px;
+	height:430px;
+	background-color:#d1d7e2;
+	border-radius:10px;
+	margin-top:10px;
+}
+
+.imagesbox .image
+{	margin-left:0px;
+	width:1180px;
+	height:400px;
+	background-image:url('../img/z20.gif');
+	background-repeat:no-repeat;
+	border-style:double;
+	border-width:5px;
+	position:relative;
+	top:10px;
+	border-radius:10px;
+}
+
+.imagesbox .image:hover
+{	
+	
+	background-image:url('../img/z19.gif');
+}
+
+.bodypart .centerpart
+{
+	width:930px;
+	height:675px;
+	background-color:#3c4e84;
+	border-radius:10px;
+	position:absolute;
+	left:310px;
+	top:13px;
+}
+
+.bodypart .centerpart .center
+{
+	width:920px;
+	height:650px;
+	background-color:#d1d7e2;
+	border-radius:10px;
+	margin-top:5px;
+}
+
+.bodypart .centerpart .center  p
+{
+	text-align:justify;
+	padding-left:5px;
+	padding-right:5px;
+}
+
+.bodypart .centerpart .center img
+{
+	width:250px; 
+	height:150px;
+}
+
+.awards
+{
+	width:1300px;
+	height:110px;
+	background-color:#d1d7e2;
+	border-radius:10px;
+	margin-top:20px;
+}
+
+.awards img
+{
+	padding-top:5px;
+	border-radius:10px;
+}
+
+.footer
+{
+	margin-top:20px;
+	margin-bottom:20px;
+	color:white;
+	font-size:120%;
+}
+
+
+=================================/* map img*/=====================================
+.bodypart .centerpart .center .map img
+{
+	width:700px; 
+	height:500px;
+}
+
+
+
+==============================/*temple right part*/===============================
+
+.bodypart .templecenterpart
+{
+	width:590px;
+	height:675px;
+	background-color:#3c4e84;
+	border-radius:10px;
+	position:absolute;
+	left:310px;
+	top:13px;
+}
+
+.bodypart .templecenterpart .center
+{
+	width:580px;
+	height:650px;
+	background-color:#d1d7e2;
+	border-radius:10px;
+	margin-top:5px;
+}
+
+.bodypart .templecenterpart .center  p
+{
+	text-align:justify;
+	padding-left:5px;
+	padding-right:5px;
+}
+
+.bodypart .templecenterpart .center  img
+{
+	width:240px;
+	height:120px;
+}
+
+.bodypart .rightpart
+{
+	width:330px;
+	height:675px;
+	background-color:#3c4e84;
+	border-radius:10px;
+	position:absolute;
+	left:960px;
+	top:13px;
+}
+
+.bodypart .rightpart h2
+{
+	color:white;
+}
+
+.bodypart .rightpart .center
+{
+	width:320px;
+	height:603px;
+	background-color:#d1d7e2;
+	border-radius:10px;
+	margin-top:5px;
+}
+
+.bodypart .rightpart .center  h4
+{	
+	color:blue;
+	text-align:justify;
+	padding-left:5px;
+	padding-right:5px;
+}
+
+.bodypart .rightpart .center  p
+{
+	text-align:justify;
+	padding-left:5px;
+	padding-right:5px;
+}
+
+====================/*hotels*/====================
+
+.bodypart .hotelscenterpart
+{
+	width:630px;
+	height:875px;
+	background-color:#3c4e84;
+	border-radius:10px;
+	position:absolute;
+	left:310px;
+	top:13px;
+}
+
+.bodypart .hotelscenterpart .center
+{
+	width:620px;
+	height:155px;
+	background-color:#d1d7e2;
+	border-radius:10px;
+	margin-top:8px;
+}
+
+
+.bodypart .hotelscenterpart .center2 
+{
+	width:620px;
+	height:155px;
+	background-color:#d1d7e2;
+	border-radius:10px;
+	margin-top:8px;
+}
+
+
+
+
+.bodypart .hotelscenterpart .center3 
+{
+	width:620px;
+	height:155px;
+	background-color:#d1d7e2;
+	border-radius:10px;
+	margin-top:8px;
+}
+
+.bodypart .hotelscenterpart .center4
+{
+	width:620px;
+	height:155px;
+	background-color:#d1d7e2;
+	border-radius:10px;
+	margin-top:8px;
+}
+
+.bodypart .hotelscenterpart .center5
+{
+	width:620px;
+	height:155px;
+	background-color:#d1d7e2;
+	border-radius:10px;
+	margin-top:6px;
+}
+
+.bodypart .hotelsrightpart
+{
+	width:290px;
+	height:875px;
+	background-color:#3c4e84;
+	border-radius:10px;
+	position:absolute;
+	left:950px;
+	top:13px;
+}
+
+.bodypart .hotelsrightpart .center 
+{
+	width:275px;
+	height:155px;
+	background-color:#d1d7e2;
+	border-radius:10px;
+	margin-top:17px;
+}
+
+.bodypart .hotelsrightpart .center img
+{
+	width:250px;
+	height:130px;
+	float:left;
+	position:relative;
+	top:10px;
+	left:10px;
+	
+}
+
+
+.bodypart .hotelsrightpart .center2
+{
+	width:275px;
+	height:155px;
+	background-color:#d1d7e2;
+	border-radius:10px;
+	margin-top:17px;
+}
+
+.bodypart .hotelsrightpart .center2 img
+{
+	width:250px;
+	height:130px;
+	float:left;
+	position:relative;
+	top:10px;
+	left:10px;
+	
+}
+
+.bodypart .hotelsrightpart .center3
+{
+	width:275px;
+	height:155px;
+	background-color:#d1d7e2;
+	border-radius:10px;
+	margin-top:19px;
+}
+
+.bodypart .hotelsrightpart .center3  img
+{
+	width:250px;
+	height:130px;
+	float:left;
+	position:relative;
+	top:10px;
+	left:10px;
+	
+}
+
+.bodypart .hotelsrightpart .center4
+{
+	width:275px;
+	height:155px;
+	background-color:#d1d7e2;
+	border-radius:10px;
+	margin-top:19px;
+}
+
+.bodypart .hotelsrightpart .center4 img
+{
+	width:250px;
+	height:130px;
+	float:left;
+	position:relative;
+	top:10px;
+	left:10px;
+	
+}
+
+.bodypart .hotelsrightpart .center5
+{
+	width:275px;
+	height:155px;
+	background-color:#d1d7e2;
+	border-radius:10px;
+	margin-top:19px;
+}
+
+.bodypart .hotelsrightpart .center5 img
+{
+	width:250px;
+	height:130px;
+	float:left;
+	position:relative;
+	top:10px;
+	left:10px;
+	
+}
+
+
+===================/*gardens*/=======================
+.gardensbodypart
+{
+	width:1250px;
+	height:600px;
+	background-color:#d1d7e2;
+	margin-top:10px;
+	border-radius:10px;
+	position:relative;
+}
+
+.gardensbodypart .leftpart
+{
+	width:290px;
+	height:575px;
+	background-color:#3c4e84;
+	border-radius:10px;
+	position:absolute;
+	left:10px;
+	top:13px;
+}
+
+.gardensbodypart .leftpart h2
+{
+	color:white;
+}
+
+.gardensbodypart .leftpart .center
+{
+	width:280px;
+	height:503px;
+	background-color:#d1d7e2;
+	border-radius:10px;
+}
+
+.gardensbodypart .leftpart .center .linkbox
+{
+	width:279px;
+	height:100px;
+	border-bottom-style:dotted;
+}
+
+.gardensbodypart .leftpart .center .linkbox img
+{
+	float:left;
+	position:relative;
+	top:20px;
+	left:5px;
+}
+
+.gardensbodypart .leftpart .center .linkbox a
+{
+	color:#3c4e84;
+	text-decoration:none;
+	font-size:120%;
+	position:relative;
+	top:20px;
+}
+
+.gardensbodypart .leftpart .center .linkbox a:hover
+{
+	color:white;
+	background-color:#3c4e84;
+	border-radius:10px;
+}
+
+
+.gardensbodypart .centerpart
+{
+	width:930px;
+	height:575px;
+	background-color:#3c4e84;
+	border-radius:10px;
+	position:absolute;
+	left:310px;
+	top:13px;
+}
+
+.gardensbodypart .centerpart .center
+{
+	width:920px;
+	height:550px;
+	background-color:#d1d7e2;
+	border-radius:10px;
+	margin-top:5px;
+}
+
+.gardensbodypart.centerpart .center  p
+{
+	text-align:justify;
+	padding-left:5px;
+	padding-right:5px;
+}
+
+.gardensbodypart .centerpart .center img
+{
+	width:350px; 
+	height:200px;
+}
+
+================/*pictures*/===================
+
+.bodypart .centerpart .pictures2center img
+{
+	width:350px; 
+	height:200px;
+}
+.bodypart .centerpart .pictures2center
+{
+	width:920px;
+	height:650px;
+	background-color:#d1d7e2;
+	border-radius:10px;
+	margin-top:5px;
+}
+
+=============/*pictures3*/==================
+
+
+.bodypart .centerpart .pictures3center img
+{
+	width:400px; 
+	height:400px;
+}
+
+.awards
+{
+	width:1300px;
+	height:110px;
+	background-color:#d1d7e2;
+	border-radius:10px;
+	margin-top:20px;
+}
+
+.awards img
+{
+	padding-top:5px;
+	border-radius:10px;
+}
+
+.footer
+{
+	margin-top:20px;
+	margin-bottom:20px;
+	color:white;
+	font-size:120%;
+}
