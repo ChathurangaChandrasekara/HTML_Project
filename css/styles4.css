@@ -1,0 +1,374 @@
+body
+{
+	background-color:#3c4e84;
+}
+
+.page
+{
+	width:1300px;
+	height:1380px;
+}
+
+
+
+.header
+{
+	width:1300px;
+	height:100px;
+}
+
+.header h1
+{
+	color:white;
+	float:left;
+	text-shadow: 5px 2px 4px gray;
+}
+
+.header h3
+{
+	color:rgb(133,153,147);
+	float:left;
+	position:absolute;
+	top:50px;
+}
+
+.header .sublinks
+{
+	width:400px;
+	height:90px;
+	float:right;
+	margin-top:10px;
+}
+
+.header .sublinks a
+{
+	color:#d1d7e2;
+	text-decoration:none;
+	position:relative;
+	top:25px;
+	float:left;
+	left:15px;
+}
+.header .sublinks a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+.header .sublinks h4
+{
+	color:white;
+	float:left;
+	position:relative;
+	top:8px;
+	left:15px;
+}
+
+.header .sublinks  input
+{
+	position:relative;
+	top:30px;
+	left:-5px;
+	border-radius:10px;
+}
+
+.bodypart
+{
+	width:1300px;
+	height:900px;
+	background-color:#d1d7e2;
+	margin-top:10px;
+	border-radius:10px;
+	position:relative;
+}
+
+.bodypart .leftpart
+{
+	width:290px;
+	height:875px;
+	background-color:#3c4e84;
+	border-radius:10px;
+	position:absolute;
+	left:10px;
+	top:13px;
+}
+
+.bodypart .leftpart h2
+{
+	color:white;
+}
+
+.bodypart .leftpart .center
+{
+	width:280px;
+	height:803px;
+	background-color:#d1d7e2;
+	border-radius:10px;
+}
+
+.bodypart .leftpart .center .linkbox
+{
+	width:279px;
+	height:100px;
+	border-bottom-style:dotted;
+}
+
+.bodypart .leftpart .center .linkbox img
+{
+	float:left;
+	position:relative;
+	top:20px;
+	left:5px;
+}
+
+.bodypart .leftpart .center .linkbox a
+{
+	color:#3c4e84;
+	text-decoration:none;
+	font-size:120%;
+	position:relative;
+	top:20px;
+}
+
+.bodypart .leftpart .center .linkbox a:hover
+{
+	color:white;
+	background-color:#3c4e84;
+	border-radius:10px;
+}
+
+.imagesbox
+{
+	width:1300px;
+	height:440px;
+	background-color:#d1d7e2;
+	border-radius:10px;
+	margin-top:10px;
+}
+
+.imagesbox .image
+{
+	width:1200px;
+	height:400px;
+	background-image:url('../img/z15.jpg');
+	background-repeat:no-repeat;
+	border-style:double;
+	border-width:5px;
+	position:relative;
+	top:10px;
+	border-radius:10px;
+}
+
+.imagesbox .image:hover
+{
+	background-image:url('../img/z18.gif');
+}
+
+
+
+
+
+
+.bodypart .hotelscenterpart
+{
+	width:630px;
+	height:875px;
+	background-color:#3c4e84;
+	border-radius:10px;
+	position:absolute;
+	left:330px;
+	top:13px;
+}
+
+.bodypart .hotelscenterpart .center
+{
+	width:620px;
+	height:155px;
+	background-color:#d1d7e2;
+	border-radius:10px;
+	margin-top:8px;
+}
+
+
+.bodypart .hotelscenterpart .center2 
+{
+	width:620px;
+	height:155px;
+	background-color:#d1d7e2;
+	border-radius:10px;
+	margin-top:8px;
+}
+
+
+
+
+.bodypart .hotelscenterpart .center3 
+{
+	width:620px;
+	height:155px;
+	background-color:#d1d7e2;
+	border-radius:10px;
+	margin-top:8px;
+}
+
+.bodypart .hotelscenterpart .center4
+{
+	width:620px;
+	height:155px;
+	background-color:#d1d7e2;
+	border-radius:10px;
+	margin-top:8px;
+}
+
+.bodypart .hotelscenterpart .center5
+{
+	width:620px;
+	height:155px;
+	background-color:#d1d7e2;
+	border-radius:10px;
+	margin-top:6px;
+}
+
+
+
+
+
+
+
+
+.bodypart .hotelsrightpart
+{
+	width:300px;
+	height:875px;
+	background-color:#3c4e84;
+	border-radius:10px;
+	position:absolute;
+	left:970px;
+	top:13px;
+}
+
+.bodypart .hotelsrightpart .center 
+{
+	width:275px;
+	height:155px;
+	background-color:#d1d7e2;
+	border-radius:10px;
+	margin-top:17px;
+}
+
+.bodypart .hotelsrightpart .center img
+{
+	width:250px;
+	height:130px;
+	float:left;
+	position:relative;
+	top:10px;
+	left:10px;
+	
+}
+
+
+.bodypart .hotelsrightpart .center2
+{
+	width:275px;
+	height:155px;
+	background-color:#d1d7e2;
+	border-radius:10px;
+	margin-top:17px;
+}
+
+.bodypart .hotelsrightpart .center2 img
+{
+	width:250px;
+	height:130px;
+	float:left;
+	position:relative;
+	top:10px;
+	left:10px;
+	
+}
+
+.bodypart .hotelsrightpart .center3
+{
+	width:275px;
+	height:155px;
+	background-color:#d1d7e2;
+	border-radius:10px;
+	margin-top:19px;
+}
+
+.bodypart .hotelsrightpart .center3  img
+{
+	width:250px;
+	height:130px;
+	float:left;
+	position:relative;
+	top:10px;
+	left:10px;
+	
+}
+
+.bodypart .hotelsrightpart .center4
+{
+	width:275px;
+	height:155px;
+	background-color:#d1d7e2;
+	border-radius:10px;
+	margin-top:19px;
+}
+
+.bodypart .hotelsrightpart .center4 img
+{
+	width:250px;
+	height:130px;
+	float:left;
+	position:relative;
+	top:10px;
+	left:10px;
+	
+}
+
+.bodypart .hotelsrightpart .center5
+{
+	width:275px;
+	height:155px;
+	background-color:#d1d7e2;
+	border-radius:10px;
+	margin-top:19px;
+}
+
+.bodypart .hotelsrightpart .center5 img
+{
+	width:250px;
+	height:130px;
+	float:left;
+	position:relative;
+	top:10px;
+	left:10px;
+	
+}
+
+
+
+.awards
+{
+	width:1300px;
+	height:110px;
+	background-color:#d1d7e2;
+	border-radius:10px;
+	margin-top:20px;
+}
+
+.awards img
+{
+	padding-top:5px;
+	border-radius:10px;
+}
+
+.footer
+{
+	margin-top:20px;
+	margin-bottom:20px;
+	color:white;
+	font-size:120%;
+}

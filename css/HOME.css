@@ -1,0 +1,382 @@
+
+@font-face
+{
+ font-family:neuropol x rg;
+ src: url(../FONTS/neuropol x rg.ttf);
+
+}
+@font-face
+{
+ font-family:typodermic-eula-02-2014;
+ src: url(../FONTS/typodermic-eula-02-2014.ttf);
+}
+@font-face
+{
+ font-family:Bradley Hand ITC;
+ src: url(../FONTS/Bradley Hand ITC.ttf);
+}
+@font-face
+{
+ font-family:BankGothic Lt BT;
+ src: url(../FONTS/BankGothic Lt BT.ttf);
+}
+body{
+		margin:10px;
+		padding-right: 10px;
+		background-color: #ffffcc;
+	}
+
+
+
+.container{
+		
+		height:auto;
+		
+		
+	}
+
+
+.box{
+	overflow:hidden;
+	position:relative;
+	top:10px;
+	width:100%;
+	height:400px;
+	
+	}
+.slider{
+	position:relative;
+	
+	width:400%;
+	
+	height:200%;
+	
+	animation-name:slide;
+	
+	animation-duration:11s;
+	animation-timing-function: cubic-bezier(.21,.66,.23,.2);
+	animation-iteration-count:infinite;
+	}
+/*.............header..........*/
+
+.header
+{
+	width:1300px;
+	height:100px;
+}
+
+.header h1
+{
+	color:black;
+	float:left;
+	text-shadow: 5px 2px 4px gray;
+}
+
+.header h3
+{
+	color:rgb(133,153,147);
+	float:left;
+	position:absolute;
+	top:50px;
+	font-family: Bradley Hand ITC;
+}
+
+.header .sublinks
+{
+	width:400px;
+	height:100px;
+	float:right;
+	margin-top:10px;
+
+}
+
+.header .sublinks a
+{
+	color:#000;
+	text-decoration:none;
+	position:relative;
+	top:25px;
+	float:left;
+	left:15px; 
+}
+
+.header .sublinks a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.header .sublinks h4
+{
+	color:black;
+	float:left;
+	position:relative;
+	top:8px;
+	left:15px;
+}
+
+.header .sublinks  input
+{
+	position:relative;
+	top:30px;
+	left:19px;
+	border-radius:10px;
+}
+
+
+/*......................	body pics.......................*/
+.picture{
+	
+		
+		
+		float:left;
+		position:relative;
+		width: 25%;
+		background-image:url(../img/z20.gif);
+		background-size:100% 400px;
+		background-repeat: no-repeat;
+		height:390px;
+		border-radius:10px;
+		
+	}
+.pictureTwo{
+		float:left;
+		position:relative;
+		width:25%;
+		background-image:url(../img/z19.gif);
+		background-size:100% 400px;
+		background-repeat: no-repeat;
+		height:390px;
+		border-radius:10px;
+		
+	}
+.pictureThree{
+		
+		position:relative;
+		width:25%;
+		float:left;
+		background-image:url(../img/z21.gif);
+		background-size:100% 400px;
+		background-repeat: no-repeat;
+		height:390px;
+		border-radius:10px;
+		
+	}
+.pictureFour{
+	
+		
+		position:relative;
+		float:left;
+		width:25%;
+		background-image:url(../img/z23.jpg);
+		background-size:100% 400px;
+		background-repeat: no-repeat;
+		height:390px;
+		border-radius:10px;
+		
+		
+	}
+/*...............body...........................*/
+
+.hr{
+	font-size: 24px;
+	margin-left: 350px;
+	width:1000px;
+	height:50px;
+	
+	
+
+
+}
+.pro{
+	width:1000px;
+font-size: 16px;
+
+}
+	
+/*.................link.................................*/	
+		
+	.nav{
+	background-color:#FFF;
+	top: 10px;
+	height:40px;
+	border-radius:10px;
+	opacity:0.7;
+	border-bottom:1px solid #FFF;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  	padding-right: 10px;
+	
+
+	
+}	
+	.nav a:hover{
+	color:#090;
+	
+	}
+.nav ul{
+		padding:10px;
+		margin:0;
+		margin-top:20px;
+		vertical-align:middle;
+		list-style:none;
+		margin-left: 250px;
+	}
+	.nav ul li{
+	float:left;
+	
+}
+.nav ul li a{
+		margin-left:10px;
+		color:#000;
+		font-weight:600;;
+		display:block;
+		text-decoration:none;
+		font-family:typodermic-eula-02-2014;
+		font-size:23px;
+		
+		transition:0.17s;
+	}	
+	
+
+
+.nav ul li a span{
+		color:#F00;
+	}
+
+.an{
+	background:#060;
+	}
+.an0{
+	background:#FF9900;
+
+	}
+@keyframes slide{
+	0%{left:0%;}
+	30%{left:0%;}
+	35%{left:-100%;}
+	50%{left:-100%;}
+	55%{left:-200%;}
+	80%{left:-200%;}
+	85%{left:-300%;}
+	
+	
+	}
+
+/*....................................menu...................*/
+
+.verNav{
+	overflow:hidden;
+	top:100px;
+	width:20%;
+	background-color:#fff;
+	height:100%;
+	 box-shadow: 10px 5px 20px #888888;
+	 border-radius:20px;
+	 opacity:0.8;
+	 margin-top: 15px;
+	}
+.verNav ul{
+		list-style:none;
+		margin:10px;
+		
+		
+		}
+.verNav ul li {
+	margin-top:10px;
+	padding-top:5px;
+	padding-bottom:5px;
+	transition:0.17s;
+	}
+.verNav ul li a{
+	margin-left: 0;
+	color: #000;
+	padding-left:5px;
+	display: block;
+	text-decoration: none;
+	font-family: typodermic-eula-02-2014;
+	font-size: 23px;
+	transition: 0.17s;
+	}
+
+.verNav ul li:hover{
+		background:#aaa;
+	}
+.verNav .sectionOne{
+	font-family:neuropol x rg;
+	font-size:24px;
+	font-weight:700;
+	background-color:#F00;
+	opacity:0.9;
+	
+	}
+
+/*.......................content.................*/
+
+.content{
+		position:absolute;
+		top:560px;
+		width:81%;
+		height:795px;
+		left:15%;
+		opacity:0.9;
+
+	}
+
+.genere{
+	height:0px;
+	font-family:"battlefieldv4";
+	font-size:24px;
+	text-align:left;
+	padding-right: 10px;
+	margin-left: 110px;
+	}
+
+.conNav{
+	overflow:hidden;
+	margin-left:100px;	
+	width:95%;
+	background-color:#fff;
+	height:81%;
+	 box-shadow: 10px 5px 20px #888888;
+	 border-radius:20px;
+	opacity:0.5;
+	}
+
+.genere p{
+
+    color: #000;
+	font-size: 18px;
+	
+}
+.genere h1{
+	text-shadow: 10px 5px 20px #888888;
+	color: #000;
+}
+
+
+
+/*........................footer............*/
+
+.footer{
+	position:relative;
+	height:100px;
+	top:30px;
+	background:#099;
+	opacity:0.7;
+	background-color:#FFF;
+	border-radius:10px;
+	border-bottom:1px solid #FFF;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  	padding-right: 0px;
+  	width: 100%;
+	}
+
+
+.footer div span{
+	color: #F29E20 ;
+}
+.footer h6{
+	text-align: center;
+	font-family: BankGothic Lt BT ;
+	
+}
